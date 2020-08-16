@@ -7,6 +7,8 @@ echo "Current directory : $CURRENT_DIR"
 
 echo $(ls -a)
 
+echo $(ls /github/workspace -a)
+
 if [ -z "$1" ]; then    
     SOURCE="./_site"
 else
