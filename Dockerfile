@@ -11,6 +11,5 @@ RUN apk -v --update add ncurses
 
 ### Copy over the entrypoint shell script
 COPY entrypoint.sh /entrypoint.sh
-COPY _config.yml /github/workspace/_config.yml
 
 ENTRYPOINT ["/entrypoint.sh"]
