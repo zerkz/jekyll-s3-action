@@ -5,7 +5,7 @@ CURRENT_DIR=`pwd`
 
 echo "Current directory : $CURRENT_DIR"
 
-echo ${ls}
+echo ${ls -a}
 
 if [ -z "$1" ]; then    
     SOURCE="./_site"
