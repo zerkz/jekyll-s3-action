@@ -12,8 +12,7 @@ RUN apk -v --update add ncurses
 ### Copy over the entrypoint shell script
 COPY entrypoint.sh /entrypoint.sh
 
-WORKDIR .
-RUN echo $(ls -a)
+RUN ls -a
 
 
 ENTRYPOINT ["/entrypoint.sh"]
