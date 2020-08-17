@@ -14,9 +14,4 @@ COPY entrypoint.sh /entrypoint.sh
 
 RUN ls -a
 
-RUN ls -a /.github/
-
-RUN ls -a /.github/workspace
-
-
 ENTRYPOINT ["/entrypoint.sh"]
